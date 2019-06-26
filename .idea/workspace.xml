@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d95c393-8996-4a99-9f83-57c02de63a08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3d95c393-8996-4a99-9f83-57c02de63a08" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -126,19 +124,18 @@
       <workItem from="1561561136141" duration="1205000" />
       <workItem from="1561588637162" duration="593000" />
       <workItem from="1561589269983" duration="264000" />
-      <workItem from="1561589641095" duration="470000" />
+      <workItem from="1561589641095" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2532000" />
+    <option name="totallyTimeSpent" value="2588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25500527" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25500527" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.32936078" />
@@ -146,7 +143,7 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49947312" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49947312" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />

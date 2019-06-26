@@ -7,18 +7,21 @@ const config = require('./config.json');
 client.on('ready', () => {
   console.log('I am ready!');
 });
-
 // Create an event listener for messages
-client.on('message', message => {
+client.on('message', message =>
+{
   // If the message ends with ? reponds with no or ask again
-  if (message.content.endsWith('?')) {
-    if (Math.floor((Math.random() * 10) + 1) == 5) {
+  if (message.content.endsWith('?'))
+  {
+    if (Math.floor((Math.random() * 10) + 1) === 5)
+    {
       message.channel.send('Try asking again.');
-    } else {
+    } else
+      {
       message.channel.send('no.');
-    }
+      }
   }
 });
 
 
-client.login('config.token');
+client.login(config.token);

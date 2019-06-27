@@ -7,4 +7,4 @@ Discord Server: https://discord.gg/w5Atzs
 
 Authorization Link: https://discordapp.com/oauth2/authorize?client_id=593233710871085063&scope=bot
 
-1/10 chance of asking user to try agian
+1/5 chance of asking user to try agian

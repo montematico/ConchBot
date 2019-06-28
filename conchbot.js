@@ -1,13 +1,19 @@
 //conchbot replies with no
+require('dotenv').load();
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require('./config.json');
+//const config = require('./config.json');
+const Dotenv = require('dotenv');
 
-require('http').createServer().listen(3000)
+
+
+require('http').createServer().listen(3000);
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
+
 
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -15,8 +21,9 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 today = mm + '/' + dd + '/' + yyyy;
-
 var uses = 0 //Says how many times to bot has answered a question since it last stopped
+
+
 // Create an event listener for messages
 client.on('message', message =>
 {
@@ -38,5 +45,5 @@ client.on('message', message =>
     }
 });
 
-
-client.login(config.token);
+require('http').createServer().listen(3000)
+client.login(process.env.Token);

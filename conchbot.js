@@ -2,12 +2,12 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require('./config.json');
-
+const config = require('./config.json'); //place config file in the same directory as conchbot.js
 client.on('ready', () => {
     console.log('I am ready!');
 });
 
+//Prints date & time when A question is asked
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -38,4 +38,4 @@ client.on('message', message =>
 });
 
 
-client.login(config.token);
+client.login(config.token); //taken from config file

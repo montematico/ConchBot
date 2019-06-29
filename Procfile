@@ -1,1 +1,1 @@
-web: node conchbot.js
+worker: node conchbot.js

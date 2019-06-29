@@ -1,5 +1,5 @@
 # ConchBot
-Magic Conch shell from Spongebob
+### Magic Conch shell from Spongebob
  
 If a user sends message with a question mark at the end, It will answer with the holy power of the conch
 
@@ -12,3 +12,8 @@ Authorization Link: https://discordapp.com/oauth2/authorize?client_id=5932337108
 Part of Discord HackWeek
 
 My first discord bot cobbled together in 3 hours
+
+Replace token in json with your own token found here
+https://discordapp.com/developers/applications/
+
+Thats it, if I doesnt work send me a DM through discord I'll answer eventually

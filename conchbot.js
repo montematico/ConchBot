@@ -1,3 +1,5 @@
+app.listen(process.env.8000); //listens on port 8000 for Webhosting
+
 const Discord = require('discord.js'); //npm install discord.js
 const client = new Discord.Client();
 const config = require('./config.json'); //Put config in same folder and rename if neccecary to "cofig.json"
